@@ -27,12 +27,17 @@ console.log(myName);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+let a = 12;
+let b = 20;
+a += b;
+console.log(a);
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let x = 12;
+console.log(x);
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
@@ -40,12 +45,16 @@ console.log(myName);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+myName = "Annunziata";
+console.log(myName);
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let z = 4;
+x -= z;
+console.log(x);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -54,3 +63,7 @@ console.log(myName);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let name1 = john;
+let neme2 = John;
+name1 === name2;
+console.log(name1 === name2);
