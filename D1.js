@@ -12,30 +12,40 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+let numeri = 25; //Come i miei anni
+let nome = "Dario"; // come il mio nome
+boolean = "true/false"; //come quando rispondi ad un quiz
+null; // Come se fosse una scatola vuota
+undefined; // e come un oggetto che non esistesse
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+let myName = "Dario";
+console.log(myName);
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let numero1 = 10;
+let numero2 = 15;
+console.log(numero1 + numero2);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
-
 /* SCRIVI QUI LA TUA RISPOSTA */
+let x = 12;
+console.log(x);
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
-
+myName = "Annunziata";
+console.log(myName); // Utilizzando la variabile let è possibile riassegnare un valore
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 6
@@ -43,6 +53,8 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+x = 4;
+console.log(x);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -51,3 +63,15 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let name1 = "john";
+let name2 = "John";
+if (name1 === name2) {
+  console.log("sono identici");
+} else {
+  console.log("sono diversi");
+}
+if (name1 !== name2) {
+  console.log("sono identici");
+} else {
+  console.log("sono diversi");
+}
